@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCEE Electronics - Wishlist</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>KCEE Electronics</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="wishlist-header">
+        <h1>Your Wishlist</h1>
+        <p>Save your favorite products for later.</p>
+    </section>
+    
+    <section class="wishlist-content">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Stock Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="product1.jpeg" alt="Product 1"> Smartphone X</td>
+                    <td>$999</td>
+                    <td>In Stock</td>
+                    <td>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                        <button class="remove-btn">❌</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="product2.jpeg" alt="Product 2"> Wireless Headphones</td>
+                    <td>$299</td>
+                    <td>Out of Stock</td>
+                    <td>
+                        <button class="btn add-to-cart" disabled>Add to Cart</button>
+                        <button class="remove-btn">❌</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 KCEE Electronics. All rights reserved.</p>
+    </footer>
+</body>
+</html>

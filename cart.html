@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCEE Electronics - Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>KCEE Electronics</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="cart-header">
+        <h1>Your Shopping Cart</h1>
+        <p>Review your selected items before checkout.</p>
+    </section>
+    
+    <section class="cart-content">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="product1.jpeg" alt="Product 1"> Smartphone X</td>
+                    <td>$999</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$999</td>
+                    <td><button class="remove-btn">❌</button></td>
+                </tr>
+                <tr>
+                    <td><img src="product2.jpeg" alt="Product 2"> Wireless Headphones</td>
+                    <td>$299</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$299</td>
+                    <td><button class="remove-btn">❌</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section class="cart-summary">
+        <h2>Cart Summary</h2>
+        <p><strong>Subtotal:</strong> $1298</p>
+        <p><strong>Tax:</strong> $65</p>
+        <p><strong>Total:</strong> $1363</p>
+        <button class="btn checkout-btn">Proceed to Checkout</button>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 KCEE Electronics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
