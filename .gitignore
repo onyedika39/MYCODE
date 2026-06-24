@@ -1,0 +1,20 @@
+﻿# Python and notebook cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments and local settings
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
