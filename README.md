@@ -48,4 +48,5 @@ This repository demonstrates front-end structure and styling for a portfolio web
 
 ## Author
 
-Created by Michael Kenechukwu as part of a data analytics, business intelligence, and machine learning portfolio.
+Created by Michael Kenechukwu as part of a front-end web development portfolio.
+
