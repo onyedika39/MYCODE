@@ -2,6 +2,10 @@
 
 Responsive front-end e-commerce website for an electronics brand, built with HTML, CSS, and JavaScript.
 
+## Project Type
+
+Front-end web development portfolio project.
+
 ## Objective
 
 This project is organized as a portfolio case study to show the full analysis workflow: understanding the business problem, preparing the data, exploring patterns, building the final output, and communicating insights clearly.
@@ -49,4 +53,5 @@ This repository demonstrates front-end structure and styling for a portfolio web
 ## Author
 
 Created by Michael Kenechukwu as part of a front-end web development portfolio.
+
 
